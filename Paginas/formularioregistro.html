@@ -1,0 +1,39 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<title>Formularios</title>
+	<meta charset="utf-8"/>
+	<meta name="author" content="Marta Lopez"/>
+	<link href="../hojasEstilo/formularios.css" rel="stylesheet" type="text/css"><link/>
+</head>
+<body id="body1">
+	<form name="fieldset" action="enviar.html" form="post" enctype="multipart/form-data">
+		<h2 id="titulo1">- REGÍSTRESE EN NUESTRA WEB -</h2>
+			<fieldset id="fieldset1">
+				<legend>Datos personales</legend>
+					
+						
+					<label>Nombre * <input type="text" size="15" minlength="5" maxlength="20" required="required" placeholder="nombre"/></label><br><br>
+					<label>Primer Apellido * <input type="text" size="25" maxlength="30" placeholder="apellidos" required="required"/></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<label>Segundo Apellido * <input type="text" size="25" maxlength="30" placeholder="apellidos" required="required"/></label><br><br>
+					<label>Fecha de nacimiento * <input type="date" size="10" maxlength="15" required="required" /></label><br><br>
+					<label>Dirección: <input type="text" size="25" placeholder="dirección" maxlength="30"/></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<label>Calle: <input type="text" size="25" placeholder="calle" maxlength="30"/></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<label>Numero de calle: <input type="number" min="1" max="200" step="2"/></label><br><br>
+						
+						
+						
+					<label>Correo electrónico: <input type="email" size="25" placeholder="correo" maxlength="30"/></label><br><br>
+					<label>Nueva Contraseña * <input type="password" name="contraseña" size="20" placeholder="nueva contraseña" maxlength="15" required="required"/></label><br><br>
+					<label>Repetir Contraseña * <input type="password" name="contraseña" size="20" placeholder="nueva contraseña" maxlength="15" required="required"/></label><br><br>
+										
+			<label><button type="submit" style="background-color:lightgreen;font-weight:bold">ENVIAR</button></label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<label><button type="reset" style="background-color:#FF6666; font-weight:bold">BORRAR</button></label>
+			</fieldset>
+			
+			<br><br>
+			
+			
+	</form>
+</body>
+</html>

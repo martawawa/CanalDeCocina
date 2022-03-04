@@ -1,0 +1,46 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<title>Formularios</title>
+	<meta charset="utf-8"/>
+	<meta name="author" content="Marta"/>
+	<link href="../hojasEstilo/formularios.css" rel="stylesheet" type="text/css"><link/>
+</head>
+<body id="body2">
+	<form name="fieldset" action="enviar.html" form="post" enctype="multipart/form-data">
+		<h2 id="titulo2">- CONTACTE CON NOSOTROS -</h2>
+			<fieldset id="fieldset2">
+				<legend>Datos personales</legend>
+					
+						
+					<label>Nombre * <input type="text" size="15" minlength="5" maxlength="20" required="required" placeholder="nombre"/></label><br><br>
+					<label>Primer Apellido * <input type="text" size="25" maxlength="30" placeholder="apellidos" required="required"/></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<label>Segundo Apellido * <input type="text" size="25" maxlength="30" placeholder="apellidos" required="required"/></label><br><br>
+					<label>Fecha de nacimiento * <input type="date" size="10" maxlength="15" required="required" /></label><br><br>
+					<label>Dirección: <input type="text" size="25" placeholder="dirección" maxlength="30"/></label><br><br>
+					<label>Teléfono de contacto: <input type="text" size="15" placeholder="teléfono" maxlength="10"/></label><br><br>
+					<label>Correo electrónico: <input type="email" size="25" placeholder="correo" maxlength="30"/></label><br><br>
+
+			</fieldset>
+			
+			<fieldset id="fieldset3">
+				<legend>Preguntas</legend>
+				<h3>¿Cómo nos has conocido?</h3>
+				
+					<label><input type="radio" name="genero"/></label>Internet&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<label><input type="radio" name="genero"/></label>Redes sociales&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<label><input type="radio" name="genero"/></label>Un amigo/familiar&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<label><input type="radio" name="genero"/></label>Otro <br><br>
+						
+					<h3>Escribe un comentario o cualquier duda que tengas aqui:</h3>	
+					<textarea name="comentario" cols="30" rows="10"></textarea>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+			<label><button type="submit" style="background-color:lightgreen;font-weight:bold">ENVIAR</button></label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<label><button type="reset" style="background-color:#FF6666; font-weight:bold">BORRAR</button></label>
+			</fieldset>
+		
+			
+			
+	</form>
+</body>
+</html>

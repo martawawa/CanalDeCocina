@@ -1,0 +1,233 @@
+
+	body{background-color:#FFCE83;}
+
+	#contenedor{position:relative;
+				width:1200px;
+				margin:auto;
+				font-weight:bold;}
+
+	/*TITULOS*/
+	.titulo{font-family:Franklin Gothic Heavy;
+			font-size:1.7em;}
+			
+	h1{font-family:Chiller;
+	font-size:4em;
+	text-align:center;
+	color:#BF5700;}
+			
+	h2 {font-family:Monotype Corsiva;
+			font-size:2.8em;
+			color:#BF5700;
+			text-decoration:underline;}
+			
+	.titulo2{font-size:1.3em;
+			text-decoration:underline;}
+			
+	u{font-size:1.2em;}
+	/*FIN TITULOS*/	
+	
+	p,li{font-family:calibri;
+	text-align:justify;
+	font-size:1.2em;}
+	
+	/*caja de ingredientes*/		
+	ul{border:3px solid purple;
+			background-color:#F884C396;
+			padding:10px;
+			border-radius:15px 15px;
+			width:300px;
+			list-style-type:none;}
+			
+		/*caja de elaboracion*/
+	.texto{position:relative;
+			top:40px;
+			border:3px solid maroon;
+			background-color:#E8741290;
+			padding:10px;
+			border-radius:15px 15px;}
+			
+			
+	/*CAJA ENTRANTES*/	
+	#caja1{position:relative;
+			width:100%;
+			height:2600px;
+			border:2px solid black;
+			border-radius:30px;
+			background-image:url(../imagenes/fondocuadros2.jpg);
+			background-repeat:repeat;
+			background-size:15%;
+			padding:60px;
+			padding-top:10px;
+			top:20px;}
+	
+			/* ENTRANTE 1 */
+			
+	#entrante1{position:relative;
+			top:10px;}
+			
+	#entrante1 img{position:absolute;
+			top:20px;
+			right:70px;
+			width:400px;
+			height:300px;
+			border:4px solid maroon;}
+		
+				/* ENTRANTE 2 */
+	#entrante2{position:relative;
+			top:120px;}
+				
+	#entrante2 img{ position:absolute;
+			top:10px;
+			right:100px;
+			width:350px;
+			height:250px;
+			border:4px solid maroon;}
+			
+			/*ENTRANTE 3*/
+	#entrante3{position:relative;
+			top:250px;}
+				
+	#entrante3 img{ position:absolute;
+			top:0px;
+			right:70px;
+			width:380px;
+			height:280px;
+			border:4px solid maroon;}
+			
+			/*ENTRANTE 4*/
+	#entrante4{position:relative;
+			top:360px;}
+				
+	#entrante4 img{ position:absolute;
+			top:20px;
+			right:120px;
+			width:450px;
+			height:300px;
+			border:4px solid maroon;}
+			
+	/* FIN CAJA ENTRANTES*/		
+	
+	
+	/*CAJA PRINCIPALES*/
+	
+	#caja2{position:relative;
+			width:100%;
+			height:2850px;
+			
+			border:2px solid black;
+			border-radius:30px;
+			background-image:url(../imagenes/fondocuadros.jpg);
+			background-repeat:repeat;
+			background-size:15%;
+			padding:60px;
+			padding-top:5px;
+			top:120px;}
+			
+			/*PRICIPAL 1*/
+	#principal1{position:relative;
+			top:20px;}
+			
+	#principal1 img{position:absolute;
+			top:100px;
+			right:130px;
+			width:400px;
+			height:300px;
+			border:4px solid maroon;}
+		
+				/* PRINCIPAL 2 */
+	#principal2{position:relative;
+			top:110px;}
+				
+	#principal2 img{ position:absolute;
+			top:30px;
+			right:150px;
+			width:350px;
+			height:250px;
+			border:4px solid maroon;}
+			
+			/*PRINCIPAL 3*/
+	#principal3{position:relative;
+			top:220px;}
+				
+	#principal3 img{ position:absolute;
+			top:0px;
+			right:150px;
+			width:350px;
+			height:250px;
+			border:4px solid maroon;}
+			
+			/*PRINCIPAL 4*/
+	#principal4{position:relative;
+			top:300px;}
+				
+	#principal4 img{ position:absolute;
+			top:20px;
+			right:120px;
+			width:400px;
+			height:250px;
+			border:4px solid maroon;}
+			
+	/* FIN CAJA PRINCIPALES*/
+
+
+	/*CAJA POSTRES*/
+	
+	#caja3{position:relative;
+			width:100%;
+			height:2600px;
+			border:2px solid black;
+			border-radius:30px;
+			background-image:url(../imagenes/fondocuadros3.jpg);
+			background-repeat:repeat;
+			background-size:30%;
+			padding:60px;
+			padding-top:5px;
+			top:200px;}
+			
+			/*POSTRE 1*/
+	#postre1{position:relative;
+			top:20px;}
+			
+	#postre1 img{position:absolute;
+			top:10px;
+			right:70px;
+			width:400px;
+			height:300px;
+			border:4px solid maroon;}
+		
+				/* POSTRE 2 */
+	#postre2{position:relative;
+			top:110px;}
+				
+	#postre2 img{ position:absolute;
+			top:10px;
+			right:100px;
+			width:350px;
+			height:250px;
+			border:4px solid maroon;}
+			
+			/*POSTRE 3*/
+	#postre3{position:relative;
+			top:220px;}
+				
+	#postre3 img{ position:absolute;
+			top:0px;
+			right:170px;
+			width:300px;
+			height:350px;
+			border:4px solid maroon;}
+			
+			/*POSTRE 4*/
+	#postre4{position:relative;
+			top:300px;}
+				
+	#postre4 img{ position:absolute;
+			top:20px;
+			right:120px;
+			width:350px;
+			height:200px;
+			border:4px solid maroon;}
+			
+	/* FIN CAJA POSTRES*/	
+			
+			

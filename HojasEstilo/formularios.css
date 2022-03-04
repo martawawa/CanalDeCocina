@@ -1,0 +1,45 @@
+
+
+	#body1{background-image:url(../imagenes/fondoformu.png);
+		background-repeat:repeat;
+		background-size:15%;}
+		
+	#body2{background-image:url(../imagenes/fondoformu2.png);
+		background-repeat:repeat;
+		background-size:15%;}
+	
+	h2{font-family:Chiller;
+		font-size:3.8em;
+		text-align:center;}
+		
+	#titulo1{color:darkblue;}
+	
+	#titulo2{color:#BD2561;}
+
+	#fieldset1{width:70%;
+			height:400px;
+			margin:auto;
+			border:3px solid blue;
+			background-color:#80E4E1;}
+	
+	#fieldset2{width:60%;
+			height:300px;
+			margin:auto;
+			border:3px solid #BD2561;
+			background-color:#FFBFF6;}
+	
+	#fieldset3{position:relative;
+			top:50px;
+			width:60%;
+			height:350px;
+			margin:auto;
+			border:3px solid #BD2561;
+			background-color:#FFBFF6;}
+	
+	legend{font-family:Candara;
+		font-size:2em;
+		font-weight:bold;}
+	
+	label{font-weight:bold;}
+	
+	
