@@ -1,6 +1,6 @@
 	
 		body{background-image:url("../imagenes/fondo3.jpg"); /*ruta relativa para el fondo*/
-			background-repeat:repeat;
+			background-repeat:no-repeat;
 			background-size:100%;}
 		
 		#contenedor{position:relative;
