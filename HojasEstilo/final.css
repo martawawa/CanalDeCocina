@@ -1,7 +1,8 @@
 	
 		:root{background-image:url("../imagenes/fondo3.jpg"); /*ruta relativa para el fondo*/
 			background-repeat:no-repeat;
-			background-size:100%;}
+			background-size:100%;
+			background-attachment:fixed;}
 		
 		#contenedor{position:relative;
 					width:1500px;
