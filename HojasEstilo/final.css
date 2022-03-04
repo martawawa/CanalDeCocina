@@ -1,5 +1,5 @@
 	
-		body{background-image:url("../imagenes/fondo3.jpg"); /*ruta relativa para el fondo*/
+		:root{background-image:url("../imagenes/fondo3.jpg"); /*ruta relativa para el fondo*/
 			background-repeat:no-repeat;
 			background-size:100%;}
 		
